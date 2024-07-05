@@ -1,0 +1,54 @@
+*{  
+    
+    text-align: center;
+}
+.main1{
+    display: inline-flex;
+    background-color: rgba(137, 43, 226, 0.507);
+    width: 59%;
+    text-align: center;
+    padding-left: 42% ;
+}
+.main1 a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    
+}
+.y:active {
+    border-bottom: solid 5px;
+}
+
+form{
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+form input{
+    border: none;
+    border-bottom: solid 2px;
+    padding: 3px;
+}
+
+.buttons{
+    background-color: blue;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+/*anime*/
+.whole{
+    display: none;
+  }    
+.whole5{
+    display: block;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transform: translateY(0px);
+  }
